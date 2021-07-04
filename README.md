@@ -64,11 +64,15 @@ p {
 }
 
 @media (max-width: 1200px) {
+  p {
     font-size: 16px;
+  }
 }
 
 @media (max-width: 600px) {
+p {
     font-size: 14px;
+  }
 }
 ```
 **Try to figure out** what happens to the `p` element font size in the Desktop, tablet and mobile screen? 
